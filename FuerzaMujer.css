@@ -7,6 +7,7 @@ h1{
 .fuerza{
     padding-left: 50px;/*espacio de izquierda*/
     padding-right: 150px;
+    padding-top: 10px;
 
     width: 185px;/*izquierda derecha de externo*/
     height: 50px;/*arriba abajo*/
@@ -14,7 +15,7 @@ h1{
 }
 img{
     width: 1366px;/*izquierda derecha*/
-    height: 514px;/*arriba abajo de la imagen*/
+    height: 539px;/*arriba abajo de la imagen*/
 }
 /*******************************************/
 h2{
