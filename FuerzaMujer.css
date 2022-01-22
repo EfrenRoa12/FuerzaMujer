@@ -4,14 +4,17 @@
 h1{
     background-color: #a02c68;
 }
-img{
-    padding-top: 10px;/*espacio de arriba*/
-    padding-left: 30px;/*espacio de izquierda*/
+.fuerza{
+    padding-left: 50px;/*espacio de izquierda*/
     padding-right: 150px;
 
-    width: 185px;/*izquierda derecha*/
+    width: 185px;/*izquierda derecha de externo*/
     height: 50px;/*arriba abajo*/
     
+}
+img{
+    width: 1366px;/*izquierda derecha*/
+    height: 514px;/*arriba abajo de la imagen*/
 }
 /*******************************************/
 h2{
