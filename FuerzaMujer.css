@@ -1,9 +1,17 @@
 *{
-    background-color: #a02c68;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Estonia', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0a1a2a;
 }
-h1{
-    background-color: #a02c68;
-}
+
+
 .fuerza{
     padding-left: 50px;/*espacio de izquierda*/
     padding-right: 150px;
@@ -13,9 +21,10 @@ h1{
     height: 50px;/*arriba abajo*/
     
 }
+
 img{
-    width: 1366px;/*izquierda derecha*/
-    height: 539px;/*arriba abajo de la imagen*/
+    width: 100%;/*izquierda derecha*/
+    height: 100%;/*arriba abajo de la imagen*/
 }
 /*******************************************/
 h2{
@@ -100,24 +109,8 @@ h2{
     
 }
 
-*{
-    
-    font-family: 'Bebas Neue', cursive;
-font-family: 'Comforter', cursive;
-font-family: 'Comforter Brush', cursive;
-font-family: 'Corinthia', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Estonia', cursive;
-font-family: 'Lora', serif;
-font-family: 'Neonderthaw', cursive;
-font-family: 'Roboto Condensed', sans-serif;
-    
-}
-
-
 .nav__responsive-ul{/*esta funcion es para que elimine la funcionde html de icono 2*/
     display: none;
-    
 }
 
 /*agregamos el fondo de color de las cajas nav*/
@@ -215,4 +208,114 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 /*es para crear que el menu se despliegue*/
 
+}
+/*es medio de la pagina*/
+.medio{
+    background: white;
+    height: 630px;
+}
+.pie{
+    background: rgb(7, 7, 7);
+    height: 200px;
+    color: white;
+}
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*-------------pie de pagina en esta seccion----------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #ffffff;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;/*arriba y costado*/
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;/*ancho*/
+    height: 100%;/*alto*/
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;/*ancho*/   
+}
+
+/*agregamos titulo y etc*/
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;/*color de letra*/
+    margin-bottom: 50px;/*espacio entre letra y h2*/
+    font-size: 25px;
+
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;/*color de letra*/
+    margin-bottom: 10px;
+}
+/*a partir de aqui se genera estilos de iconos*/
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;/*borramos el subarrayado de redes sociales que tenia antes*/
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+/*pie de pagina cambia de color icono*/
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+/*es el color de fondo de derechos reservados*/
+.pie-pagina .grupo-2{
+    background: #a02c68;/*color de grupo dos*/
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+    background: #a02c68;
+}
+b{
+    background: #a02c68;/*antes del arroba y numero*/
+}
+h2{
+    background: #0a1a2a;
+    /*#a02c68*/
+}
+.radio{
+    border-radius: 50%;
+    
+}
+/*responsive para animacion*/
+@media screen and (max-width:800px){
+    /*este codigo lo copiamos desde grupo-1*/
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;/*arriba y costado*/
+    }
 }
