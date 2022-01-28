@@ -1,8 +1,14 @@
 *{
-    background-color: #a02c68;
-}
-h1{
-    background-color: #a02c68;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Estonia', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+background-color: #a02c68;
 }
 .fuerza{
     padding-left: 50px;/*espacio de izquierda*/
@@ -17,103 +23,12 @@ img{
     width: 1366px;/*izquierda derecha*/
     height: 539px;/*arriba abajo de la imagen*/
 }
-/*******************************************/
-h2{
-    text-align: center;
-    background-color: #c12700;
-    width: 150px;
-    height: 30px;
-    /*le movimos 20 px*/
-    position: relative;/*se sigue conservando el espacio */
-    top: 10px;/*arriba----se mueve 20 px hacia abajo*/
-    left: 10px;/*izquierda*/
-    right: 10px;/*derecha*/
-    bottom: 10px;/*abajo*/
 
-}
-
-
-/**+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-.container{/*es la posicion de la caja padre es mas grande*/
-    /*margin: 50px auto; lo que hace es entrarlo*/
-    height: 1px;
-
-    left: 800px;/*posicion a la  derecha*/
-    top: 80px;
-}
-
-/*modificamos el titulo tamaño color etc*/
-.letra{
-    position: relative;
-    top: 110px;
-    left: 300px;
-    /*tamaño de letra*/
-    font-size: 50px;
-}
-.nombre{
-    position: relative;
-    left: 100px;
-    top: 60px;
-}
-.apellido{
-    position: relative;
-    left: 100px;
-    top: 70px;
-}
-
-.mail{
-    position: relative;
-    left: 100px;
-    top: 80px;
-}
-.contraseña{
-    position: relative;
-    left: 100px;
-    top: 100px;
-}
-.boton{
-    position: relative;
-    left: 110px;/*derecha izquierda*/
-    top: 130px;/*arriba abajo*/
-    
-    color: white;/*color del texto*/
-}
-.olvido{
-    position: relative;
-    left: 100px;
-    top: 160px;
-}
-.nueva{
-    position: relative;
-    left: 140px;
-    top: 180px;
-    
-}
 /**+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 .nav__ul{
     padding-left: 320px;/*le da espacion a la derecha*/
     
 }
-
-.sou{
-    padding-bottom: 30px;/*le da espacion a la derecha*/
-    
-}
-
-*{
-    
-    font-family: 'Bebas Neue', cursive;
-font-family: 'Comforter', cursive;
-font-family: 'Comforter Brush', cursive;
-font-family: 'Corinthia', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Estonia', cursive;
-font-family: 'Lora', serif;
-font-family: 'Neonderthaw', cursive;
-font-family: 'Roboto Condensed', sans-serif;
-    
-}
-
 
 .nav__responsive-ul{/*esta funcion es para que elimine la funcionde html de icono 2*/
     display: none;
@@ -217,34 +132,82 @@ font-family: 'Roboto Condensed', sans-serif;
 
 }
 
-.caja{
-    padding-left: 50px;/*espacio de izquierda*/
-    padding-right: 150px;
-    padding-top: 100px;
-
-    width: 185px;/*izquierda derecha de externo*/
-    height: 50px;/*arriba abajo*/
+.fuerza1{
+    background: #a02c68;
 }
-
-.fuerza{
-    background: rgb(228, 237, 100);
+/*de aqui en adelante vamos a comenzar*/
+.fuerza2{
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: 0px;/*se mueve 20px hacia abajo*/
+    left: 0px;/*se mueve 20px hacia derecha*/
+    background: #05a71a;
+    width: 600px;/*de lado tamaño*/
+    height: 599px;/*arriba abajo tamaño*/
+    display: block;
+}
+.mujerimagen{
+    /*se esatablece dentro de la imagen*/
+    height: 100%;
+    width: 100%;
+    
 }
 .quienes{
-    background: rgb(100, 237, 230);
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: -599px;/*se mueve 20px hacia abajo*/
+    left: 600px;/*se mueve 20px hacia derecha*/
+    background: #2c9ca0;
+    width: 369px;/*se expande a la derecha*/
+    height: 200px;
+    display: block;
+    
 }
 .historia{
-    background: rgb(210, 100, 237);
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: -799px;/*se mueve 20px hacia abajo*/
+    left: 969px;/*se mueve 20px hacia derecha*/
+    background: #a0302c;
+    min-width: 300px;
+    width: 380px;
+    height: 200px;
+    display: block;
 }
+
 .hacemos{
-    background: rgb(164, 100, 237);
-}
-.vision{
-    background: rgb(100, 109, 237);
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: -799px;/*se mueve 20px hacia abajo*/
+    left: 600px;/*se mueve 20px hacia derecha*/
+    background: #4b2ca0;
+    width: 369px;
+    height: 200px;
+    display: block;
 }
 .mision{
-    background: rgb(237, 100, 100);
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: -999px;/*se mueve 20px hacia abajo*/
+    left: 969px;/*se mueve 20px hacia derecha*/
+    background: #2c98a0;
+    width: 380px;
+    height: 200px;
+    display: block;
+}
+.vision{
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: -999px;/*se mueve 20px hacia abajo*/
+    left: 600px;/*se mueve 20px hacia derecha*/
+    background: #9c8605;
+    width: 369px;/*se expande a la derecha*/
+    height: 200px;
+    display: block;
 }
 .objetivo{
-    background: rgb(237, 223, 100);
+    position: relative;/*se coloca asi para que la caja se pueda mover*/
+    top: -1199px;/*se mueve 20px hacia abajo*/
+    left: 969px;/*se mueve 20px hacia derecha*/
+    background: #2c72a0;
+    width: 380px;
+    height: 200px;
+    display: block;
 }
+.prueba{
     
+}
