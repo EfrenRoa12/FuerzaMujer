@@ -1,0 +1,248 @@
+*{
+    
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Comforter', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Corinthia', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Estonia', cursive;
+font-family: 'Lora', serif;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+body{
+    background-color: #2ca090;
+}
+.ojo{
+    background: #a02c68;
+}
+.fuerza{
+    padding-left: 50px;/*espacio de izquierda*/
+    padding-right: 150px;
+    padding-top: 10px;
+
+    width: 185px;/*izquierda derecha de externo*/
+    height: 50px;/*arriba abajo*/
+    
+}
+img{
+    width: 1366px;/*izquierda derecha*/
+    height: 539px;/*arriba abajo de la imagen*/
+}
+
+/**+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.nav__ul{
+    padding-left: 320px;/*le da espacion a la derecha*/
+    
+}
+
+.nav__responsive-ul{/*esta funcion es para que elimine la funcionde html de icono 2*/
+    display: none;
+    
+}
+
+/*agregamos el fondo de color de las cajas nav*/
+.nav{
+    background: #48ee;
+}
+/*la funcion permite que se ponga una a lado de la otra*/
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: #fff;/*se pone color blanco el icono*/
+}
+/*cuando se los pasemos por encima cambia*/
+.nav__li:hover > a{
+    color: #ccc;/*se pone color blanco el icono*/
+}
+/*doble modificacion*/
+.nav__li:hover{
+    color: #bbb;/*se pone color blanco el icono*/
+}
+/*es para colorear la letra*/
+.nav__li a{
+    color: #fff;
+    text-decoration: none;
+}
+/*es el espacio entre letra y contorno y alineamos el centro*/
+.nav__li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-left: 5px;
+}
+/*donde aparece*/
+.nav__responsive-buttom-container {
+    position: absolute;
+    width: 100%;
+    font-size: 130%;
+    background: rgb(73, 136, 231);
+    margin-top: -74px;/*es para no tapar lo del paddign*/
+}
+.nav__responsive-buttom {
+    padding: 6px 20px;
+    text-align: right;
+    width: 100%;
+}
+
+@media only screen and (max-width:500px) {
+    .nav__ul{/*apartir de los 500 px cambia*/
+        display: none;
+    }
+    
+    /*es el estilo que lo creamos  es para crear lo de mobile*/
+    
+    /**/
+    .nav{
+        height: 37px;
+        width: 100%;
+        
+    }
+    /*para que se despligue y se actualice*/
+    .nav__li-container{
+        position: relative;
+        top: calc(100vh -64px);/*viewport heigth*/
+    }
+
+    /**/
+    .nav__responsive-ul{/*menu de escritorio y de menu de mobile*/
+        display: block;
+        position: absolute;/*es para que se ponga mas chico y vuele*/
+        background-color: #48e;
+        height: 100%;
+        width: 100%;
+        padding-top: 37px;
+        padding-top: 37px;
+        top: 100%;
+    }
+    
+    .nav__responsive-li{
+        width: 100%;
+        padding: 9px 20px;/*distancia de la letra*/
+        margin-top: 37px;
+
+    }
+
+    .nav__responsive-li i{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+    width: 30px;
+    color: #028;/*es la tipografia el color lo cambiamos a este*/
+    }
+    /*nav*/
+    .nav__responsive-li a{
+    color: #016;
+    text-decoration: none;
+    }
+/*es para crear que el menu se despliegue*/
+
+}
+/*en esta seccion es en donde el usuario va a tener que ingresar sus datos ya sea que la contacten o el usuario llame*/
+.form__input{
+    text-align: center;
+}
+.flex-container{
+    
+    display: flex;
+    align-items: center;/*centrado verticalmente*/
+    flex-wrap: wrap;/*cuando hagamos responsive se pueda deslizar*/
+    justify-content: center;
+    background: #a02c68;
+    margin: 50px 50px;
+    padding: 20px;
+}
+
+.form{/*es lo que se va a pasar dentro lo que pasa en formulario*/
+    min-width: 300px;/*para ue los input sean mas chicos */
+    flex: 1;
+    text-align: center;/*para que se pase a la derecha*/
+    padding: 30px;/*tiene que tener 30px de formulario dentro a fuera*/
+    order: 5;/*espara que imagen vaya primero*/
+}
+.form__input{
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #5dd;
+    background: transparent;/*formulario es transparente solo cuando es seleccionado    */
+    color: white;/*le agregamos el color de la letra*/
+}
+/*es como dale fondo de de color a la hora de seleccionar el formulario con el usuario*/
+.form__input:focus{
+    background: linear-gradient(to bottom, transparent,rgb(83, 79, 79));/*efecto de transparencia de abajo a arriba*/
+    outline: none;
+    background-color: rgb(160, 90, 154);
+    border-bottom: 3px solid #5dd;
+}
+
+.form textarea{
+    min-height: 140px;
+    resize: none;/*para que no se pueda expandir el textaarea*/
+}
+.form-img{/*cuando agregamos esto vamos a tener que decir flex  para que sea forma parte de formulario html*/
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;/*a partir de 300 pixeles ya no se incoge la imagen*/
+    max-width: 900px;
+    order: 2;/*espara que imagen vaya primero*/
+}
+.form-img div{
+    padding: 10px;
+}
+.img-container div{
+    
+    background-color: white;
+    border-radius: 50%;/*para que sea como un circulo*/
+    text-align: center;
+    padding: 20px;
+}
+.img-container{
+    padding: 20px;
+    margin: auto;
+    
+    background: white;
+}
+/*es la posicion de la imagen  para que pueda ser posicionada de una mejor manera*/
+.form-img{
+    /*se coloca como position relative para que la imagen pueda ser dezlazada*/
+    position: relative;
+    /*- px para posicionarlo mejor*/
+    right: -100px;
+    top: -30px;
+}
+.social{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 10px;
+    left: -110px;
+}
+.form-img img{/*es la imagen directamente*/
+    width: 60%;/*altura*/
+    height: 85%;/*derecha izquierda*/
+    border-radius: 50%;/*para que sea como un circulo*/
+    
+}
+/*en esta parte es el boton de enviar*/
+.form input[type = "submit"]{
+    background: #2ca090;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type = "submit"]:hover{/*es para que envie*/
+    background: #2ca090;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type = "submit"]:focus{/*es para que envie*/
+    background: #2b8076;
+    
+}
+.form input[type = "submit"]:active{/*es para que envie*/
+    background: linear-gradient(to bottom, transparent,rgb(83, 79, 79));/*efecto de transparencia de abajo a arriba*/
+}
