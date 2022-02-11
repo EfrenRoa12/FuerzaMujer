@@ -9,7 +9,7 @@
     font-family: 'Lora', serif;
     font-family: 'Neonderthaw', cursive;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #a02c68;
+    background-color: #0d2033;
 }
 .fuerza{
     padding-left: 50px;/*espacio de izquierda*/
@@ -131,4 +131,82 @@ img{
     }
 /*es para crear que el menu se despliegue*/
 
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.noticias{
+    background: pink;
+    position: absolute;
+    top: 89px;/*arriba abajo*/
+    left: 460px;
+    font-size: 30px;
+    background: #a02c68;/*color de grupo dos*/
+
+    /*es el tamaño de la caja*/
+    width: 400px;/*izquierda derecha de externo*/
+    height: 0px;/*arriba abajo*/
+    color: white;
+}
+
+.noticia1{
+    position: absolute;
+    /*posicion*/
+    top: 1050px;/*arriba abajo*/
+    left: 580px;/*derecha se mueve*/
+    /*es el tamaño de la caja*/
+    width: 335px;/*izquierda derecha de externo*/
+    height: 350px;/*arriba abajo*/
+    background: #a02c68;/*color de grupo dos*/
+    color: white;
+    text-align: center;
+}
+.noticia2{
+    position: absolute;
+     /*tamaño de la caja*/
+     width: 400px;
+     height: 400px;
+}
+.noticia3{
+    position: absolute;
+     /*tamaño de la caja*/
+     width: 400px;
+     height: 400px;
+}
+.noticia4{
+    position: absolute;
+     /*tamaño de la caja*/
+     width: 400px;
+     height: 400px;
+}
+.evento1{
+    position: absolute;
+     /*tamaño de la caja*/
+     width: 400px;
+     height: 400px;
+}
+.evento2{
+    position: absolute;
+     /*tamaño de la caja*/
+     width: 400px;
+     height: 400px;
+}
+.evento3{
+    position: absolute;
+     /*tamaño de la caja*/
+     width: 400px;
+     height: 400px;
+}
+.evento4{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: chartreuse;
+     /*tamaño de la caja*/
+     width: 200px;
+     height: 200px;
 }
