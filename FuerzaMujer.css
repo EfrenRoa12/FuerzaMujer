@@ -10,7 +10,14 @@
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #0a1a2a;
 }
-
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*-------------pagina de cabecera----------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
 
 .fuerza{
     padding-left: 50px;/*espacio de izquierda*/
@@ -219,6 +226,86 @@ h2{
     height: 200px;
     color: white;
 }
+/*es el fondo principal en div donde va la imagen*/
+.medio1{
+    background: #a02c68;
+}
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*-------------pagina medio----------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+.medios{
+    text-align: center;
+    position: absolute;
+    top: 200px;/*arriba abajo*/
+    left: 45px;
+
+    background: #a02c68;/*color de grupo dos*/
+
+    /*es el tamaño de la caja*/
+    width: 670px;/*izquierda derecha de externo*/
+    height: 0px;/*arriba abajo--- la razon es que sea tipo transparente*/
+    font-size: 40px;/*es para crear agrandar la letra*/
+    color: white;
+}
+.medio{
+    background: #a02c68;/*color de fondo de div media pagina*/
+    font-size: 28px;/*es para crear agrandar la letra*/
+    color: white;
+    
+}
+.logoFM{
+    position: absolute;
+    top: 898px;/*arriba abajo*/
+    left: 15px;
+
+    background: #a02c68;/*color de grupo dos*/
+
+    /*es el tamaño de la caja*/
+    width: 550px;/*izquierda derecha de externo*/
+    height: 550px;/*arriba abajo*/
+}
+.horario{
+    position: absolute;
+    /*posicion*/
+    top: 1050px;/*arriba abajo*/
+    left: 580px;/*derecha se mueve*/
+    /*es el tamaño de la caja*/
+    width: 335px;/*izquierda derecha de externo*/
+    height: 350px;/*arriba abajo*/
+    background: #a02c68;/*color de grupo dos*/
+    color: white;
+    text-align: center;
+}
+
+.ley{
+    position: absolute;
+    /*posicion de la caja div*/
+    top: 898px;/*arriba abajo*/
+    left: 930px;
+    /*es el tamaño de la caja*/
+    width: 400px;/*izquierda derecha de externo*/
+    height: 430px;/*arriba abajo*/
+    background: #a02c68;/*color de grupo dos*/
+}
+/*es donde va abajo de la imagen ley la direccion de la institucion*/
+.directorio{
+    position: absolute;
+    /*posicion de la caja div*/
+    top: 1380px;/*arriba abajo*/
+    left: 950px;
+    /*es el tamaño de la caja*/
+    width: 360px;/*izquierda derecha de externo*/
+    height: 85px;/*arriba abajo*/
+    background: #a02c68;/*color de grupo dos*/
+    text-align: center;
+    color: white;
+}
+
 /*----------------------------------------------------------------*/
 /*----------------------------------------------------------------*/
 /*----------------------------------------------------------------*/
