@@ -132,13 +132,11 @@ img{
 
 }
 
-.fuerza1{
-    background: #a02c68;
-}
+
 /*de aqui en adelante vamos a comenzar*/
 .fuerza2{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: 0px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 80px;/*se mueve 20px hacia abajo*/
     left: 0px;/*se mueve 20px hacia derecha*/
     background: #05a71a;
     width: 600px;/*de lado tamaño*/
@@ -147,67 +145,71 @@ img{
 }
 .mujerimagen{
     /*se esatablece dentro de la imagen*/
+    position: absolute;
     height: 100%;
     width: 100%;
     
 }
 .quienes{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: -599px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 80px;/*se mueve 20px hacia abajo*/
     left: 600px;/*se mueve 20px hacia derecha*/
-    background: #2c9ca0;
+    background: #a02c9a;
     width: 369px;/*se expande a la derecha*/
     height: 200px;
     display: block;
+    text-align: center;
     
 }
 .historia{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: -799px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 80px;/*se mueve 20px hacia abajo*/
     left: 969px;/*se mueve 20px hacia derecha*/
     background: #a0302c;
     min-width: 300px;
     width: 380px;
     height: 200px;
     display: block;
+    text-align: center;
 }
 
 .hacemos{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: -799px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 280px;/*se mueve 20px hacia abajo*/
     left: 600px;/*se mueve 20px hacia derecha*/
     background: #4b2ca0;
     width: 369px;
     height: 200px;
     display: block;
+    text-align: center;
 }
 .mision{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: -999px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 280px;/*se mueve 20px hacia abajo*/
     left: 969px;/*se mueve 20px hacia derecha*/
-    background: #2c98a0;
+    background: #30a02c;
     width: 380px;
     height: 200px;
     display: block;
+    text-align: center;
 }
 .vision{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: -999px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 480px;/*se mueve 20px hacia abajo*/
     left: 600px;/*se mueve 20px hacia derecha*/
-    background: #9c8605;
+    background: #9c7905;
     width: 369px;/*se expande a la derecha*/
     height: 200px;
     display: block;
+    text-align: center;
 }
 .objetivo{
-    position: relative;/*se coloca asi para que la caja se pueda mover*/
-    top: -1199px;/*se mueve 20px hacia abajo*/
+    position: absolute;/*se coloca asi para que la caja se pueda mover*/
+    top: 480px;/*se mueve 20px hacia abajo*/
     left: 969px;/*se mueve 20px hacia derecha*/
     background: #2c72a0;
     width: 380px;
     height: 200px;
     display: block;
-}
-.prueba{
-    
+    text-align: center;
 }
