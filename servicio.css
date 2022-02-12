@@ -139,7 +139,6 @@ img{
     text-decoration: none;
     }
 /*es para crear que el menu se despliegue*/
-
 }
 /*----------------------------------------------*/
 /*----------------------------------------------*/
@@ -150,11 +149,21 @@ img{
 /*----------------------------------------------*/
 
 /*en esta seccion es en donde el usuario va a tener que ingresar sus datos ya sea que la contacten o el usuario llame*/
-.form__input{
+.flex-container{
+    position: absolute;
+    /*posicion*/
+    top: 60px;/*arriba abajo*/
+    left: -25px;/*derecha se mueve*/
+    /*es el tamaño de la caja*/
+    width: 400px;/*izquierda derecha de externo*/
+    height: 440px;/*arriba abajo*/
+    background: #98a02c;/*color de grupo dos*/
+    color: white;
     text-align: center;
 }
+
+/*esta seccion es el posicionamiento de div izquierda de contacto abogada*/
 .flex-container{
-    
     display: flex;
     align-items: center;/*centrado verticalmente*/
     flex-wrap: wrap;/*cuando hagamos responsive se pueda deslizar*/
@@ -164,34 +173,6 @@ img{
     padding: 20px;
 }
 
-.form{/*es lo que se va a pasar dentro lo que pasa en formulario*/
-    min-width: 300px;/*para ue los input sean mas chicos */
-    flex: 1;
-    text-align: center;/*para que se pase a la derecha*/
-    padding: 30px;/*tiene que tener 30px de formulario dentro a fuera*/
-    order: 5;/*espara que imagen vaya primero*/
-}
-.form__input{
-    width: 100%;
-    padding: 7px;
-    margin: 6px 0;
-    border: none;
-    border-bottom: 3px solid #5dd;
-    background: transparent;/*formulario es transparente solo cuando es seleccionado    */
-    color: white;/*le agregamos el color de la letra*/
-}
-/*es como dale fondo de de color a la hora de seleccionar el formulario con el usuario*/
-.form__input:focus{
-    background: linear-gradient(to bottom, transparent,rgb(83, 79, 79));/*efecto de transparencia de abajo a arriba*/
-    outline: none;
-    background-color: rgb(160, 90, 154);
-    border-bottom: 3px solid #5dd;
-}
-
-.form textarea{
-    min-height: 140px;
-    resize: none;/*para que no se pueda expandir el textaarea*/
-}
 .form-img{/*cuando agregamos esto vamos a tener que decir flex  para que sea forma parte de formulario html*/
     flex: 1;
     display: flex;
@@ -220,16 +201,17 @@ img{
 .form-img{
     /*se coloca como position relative para que la imagen pueda ser dezlazada*/
     position: relative;
-    /*- px para posicionarlo mejor*/
-    right: -100px;
+    /*- px para posicionarlo mejor - la IMAGEN-*/
+    right: -5px;
     top: -30px;
 }
+/*posicion del contacto de datos de abogada*/
 .social{
     position: relative;
     text-align: center;
     color: white;
-    top: 10px;
-    left: -110px;
+    top: 30px;
+    left: -10px;
 }
 .form-img img{/*es la imagen directamente*/
     width: 60%;/*altura*/
@@ -237,30 +219,43 @@ img{
     border-radius: 50%;/*para que sea como un circulo*/
     
 }
-/*en esta parte es el boton de enviar*/
-.form input[type = "submit"]{
-    background: #2ca090;
-    border-bottom: none;
-    padding: 12px;
-}
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*-------datos para contacto Psicologa----------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
 
-.form input[type = "submit"]:hover{/*es para que envie*/
-    background: #2ca090;
-    border-bottom: none;
-    padding: 12px;
-}
 
-.form input[type = "submit"]:focus{/*es para que envie*/
-    background: #2b8076;
-    
+.noticia2{
+    position: absolute;
+    top: 110px;/*arriba abajo*/
+    left: 505px;/*derecha se mueve*/
+    /*es el tamaño de la caja*/
+    width: 400px;/*izquierda derecha de externo*/
+    height: 480px;/*arriba abajo*/
+    background: #a02c8d;/*color de grupo dos*/
+    color: white;
+    text-align: center;
 }
-.form input[type = "submit"]:active{/*es para que envie*/
-    background: linear-gradient(to bottom, transparent,rgb(83, 79, 79));/*efecto de transparencia de abajo a arriba*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*-------datos para contacto Contador----------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+
+.noticia3{
+    position: absolute;
+    top: 110px;/*arriba abajo*/
+    left: 940px;/*derecha se mueve*/
+    /*es el tamaño de la caja*/
+    width: 400px;/*izquierda derecha de externo*/
+    height: 480px;/*arriba abajo*/
+    background: #552ca0;/*color de grupo dos*/
+    color: white;
+    text-align: center;
 }
-/*----------------------------------------------*/
-/*----------------------------------------------*/
-/*----------------------------------------------*/
-/*-------datos para contacto psicologa----------*/
-/*----------------------------------------------*/
-/*----------------------------------------------*/
-/*----------------------------------------------*/
